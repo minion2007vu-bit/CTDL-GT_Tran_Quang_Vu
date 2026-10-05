@@ -9,7 +9,8 @@ struct sapxepthapHN {
 };
 
 int main() {
-    int n = 3;
+    int n;
+    cin >> n;
     vector<sapxepthapHN> HN;
     HN.push_back({n, 'A', 'B', 'C', 0});
     while (HN.size() > 0) {
