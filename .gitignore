@@ -1,6 +1,0 @@
-*.exe
-*.o
-__pycache__/
-.venv-check/
-mau_doi_chieu/
-report.html
