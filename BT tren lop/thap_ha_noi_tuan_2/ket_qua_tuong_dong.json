@@ -1,0 +1,62 @@
+{
+  "tool": "copydetect",
+  "version": "0.5.0",
+  "pygments_version": "2.21.0",
+  "noise_threshold": 25,
+  "guarantee_threshold": 25,
+  "window_size": 1,
+  "filtering": true,
+  "language": "cpp",
+  "boilerplate": null,
+  "pairs": [
+    {
+      "test": "de_quy.cpp",
+      "reference": "ygabo_hanoi.cpp",
+      "test_similarity": 0,
+      "reference_similarity": 0,
+      "overlap": 0
+    },
+    {
+      "test": "de_quy.cpp",
+      "reference": "gmarella_tower_of_hanoi.cpp",
+      "test_similarity": 0,
+      "reference_similarity": 0,
+      "overlap": 0
+    },
+    {
+      "test": "de_quy.cpp",
+      "reference": "harry_TowersOfHanoi.cpp",
+      "test_similarity": 0.21621621621621623,
+      "reference_similarity": 0.3516949152542373,
+      "overlap": 56
+    },
+    {
+      "test": "khu_de_quy.cpp",
+      "reference": "ygabo_hanoi.cpp",
+      "test_similarity": 0,
+      "reference_similarity": 0,
+      "overlap": 0
+    },
+    {
+      "test": "khu_de_quy.cpp",
+      "reference": "gmarella_tower_of_hanoi.cpp",
+      "test_similarity": 0,
+      "reference_similarity": 0,
+      "overlap": 0
+    },
+    {
+      "test": "khu_de_quy.cpp",
+      "reference": "harry_TowersOfHanoi.cpp",
+      "test_similarity": 0,
+      "reference_similarity": 0,
+      "overlap": 0
+    }
+  ],
+  "sha256": {
+    "de_quy.cpp": "05c60b03ca37dd858697f2988d5d999c1344ba857335733d0cb7a4e92769e27b",
+    "khu_de_quy.cpp": "25775b3a3a88d64606f2757e5906efee4e41cb13ec1cff00f8239c4be8be1160",
+    "ygabo_hanoi.cpp": "cda0458feb82ab72a12bf2ab39f947089428f06c958f7f03f13a9e06f7f936bd",
+    "gmarella_tower_of_hanoi.cpp": "c1c74c785e3a8279b6c6c5b180c3bb748c9bc6a70fcde806a70f9d9d96917951",
+    "harry_TowersOfHanoi.cpp": "c021d99f9e66249c4e0ec0c57b43071fe8a995e1964070282dac3497754119a8"
+  }
+}
