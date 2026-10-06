@@ -9,7 +9,7 @@ void thapHaNoi(int n, char goc, char dich, char trung_gian) {
 }
 
 int main() {
-    int n ;
+    int n;
     cin >> n;
     thapHaNoi(n, 'A', 'B', 'C');
     cout << "Da hoan thanh thu thach Thap Ha Noi" << endl;
