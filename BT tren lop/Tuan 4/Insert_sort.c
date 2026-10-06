@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+//Insert sort
+
 void swap(int a, int b){
     int temp = b;
     b = a;
