@@ -19,10 +19,10 @@ int main(){
         int temp = A[i];
         A[i] = A[index];
         A[index] = temp;
-    }
-    printf("Mang sau khi sap xep: ");
-    for(int i = 0; i < n; i++) {
-        printf("%d ", A[i]);
+        for(int i = 0; i < n; i++) {
+            printf("%d ", A[i]);
+        }
+        printf("\n");
     }
     return 0;
 }
