@@ -47,4 +47,5 @@ int main(){
         scanf("%d", &arr[i]);
     }
     Quick_sort(arr, 0, n - 1, n);
+    return 0;
 }
