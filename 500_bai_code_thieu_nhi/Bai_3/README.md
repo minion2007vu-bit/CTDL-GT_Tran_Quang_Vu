@@ -1,5 +1,5 @@
-# Đề bài: Check if a subarray with 0 sum exists or not
-**Given an integer array, check if it contains a subarray having zero-sum.**
+# Đề bài: Print all subarrays with 0 sum
+**Given an integer array, print all subarrays with zero-sum.**
 
 ## Mô tả giải thuật:
 1. Hàm Find_subarray_0 có đầu vào là con trỏ của mảng và kích thước mảng.
