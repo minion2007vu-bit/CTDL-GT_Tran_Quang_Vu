@@ -1,0 +1,29 @@
+{
+  "python-envs.workspaceSearchPaths": [
+    "C:\\Users\\Asus\\Documents\\Code\\.venv"
+  ],
+  "files.encoding": "utf8",
+  "search.exclude": {
+    "**/.build": true,
+    "**/.venv": true
+  },
+  "debug.saveBeforeStart": "allEditorsInActiveGroup",
+  "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+  "C_Cpp.default.intelliSenseMode": "windows-gcc-x64",
+  "python.defaultInterpreterPath": "C:\\Users\\Asus\\Documents\\Code\\.venv\\Scripts\\python.exe",
+  "C_Cpp.default.cppStandard": "gnu++17",
+  "terminal.integrated.env.windows": {
+    "PYTHONIOENCODING": "utf-8",
+    "PATH": "C:\\Users\\Asus\\Documents\\Code\\.venv\\Scripts;C:\\msys64\\ucrt64\\bin;${env:PATH}",
+    "VIRTUAL_ENV": "C:\\Users\\Asus\\Documents\\Code\\.venv"
+  },
+  "python.terminal.executeInFileDir": true,
+  "files.exclude": {
+    "**/.build": true,
+    "**/__pycache__": true
+  },
+  "python-envs.terminal.autoActivationType": "off",
+  "C_Cpp.default.cStandard": "gnu17",
+  "python.terminal.activateEnvironment": false,
+  "task.saveBeforeRun": "always"
+}

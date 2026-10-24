@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "setupCommands": [
+        {
+          "ignoreFailures": true,
+          "text": "-enable-pretty-printing",
+          "description": "Enable pretty printing"
+        }
+      ],
+      "name": "Code: Debug C or C++",
+      "externalConsole": false,
+      "environment": [
+        {
+          "value": "C:\\msys64\\ucrt64\\bin;${env:PATH}",
+          "name": "PATH"
+        }
+      ],
+      "preLaunchTask": "Code: Build active file",
+      "MIMode": "gdb",
+      "cwd": "${fileDirname}",
+      "program": "${fileDirname}/.build/${fileBasename}.exe",
+      "request": "launch",
+      "type": "cppdbg",
+      "stopAtEntry": false,
+      "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+      "args": []
+    },
+    {
+      "cwd": "${fileDirname}",
+      "console": "integratedTerminal",
+      "name": "Code: Debug Python",
+      "env": {
+        "PYTHONIOENCODING": "utf-8"
+      },
+      "python": "C:\\Users\\Asus\\Documents\\Code\\.venv\\Scripts\\python.exe",
+      "justMyCode": true,
+      "program": "${file}",
+      "request": "launch",
+      "type": "debugpy"
+    }
+  ],
+  "version": "0.2.0"
+}
