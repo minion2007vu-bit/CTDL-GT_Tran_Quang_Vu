@@ -21,17 +21,17 @@
 
 ## Test case:
 **Test case 1:**
-Input:
-5
-10
-3 6 5 4 7
-Output:
-Pair found (3, 7)
-Pair found (6, 4)
+Input:\
+5\
+10\
+3 6 5 4 7\
+Output:\
+Pair found (3, 7)\
+Pair found (6, 4)\
 
 **Test case 2:**
-7
-9
-3 7 5 0 8 5 7
-Output:
-No pair found
+7\
+9\
+3 7 5 0 8 5 7\
+Output:\
+No pair found\
