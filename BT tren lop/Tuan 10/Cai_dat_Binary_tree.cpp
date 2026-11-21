@@ -33,9 +33,9 @@ void show(Node* root){
 
 void show_inOrder(Node *root){
     if (root == NULL) return;
-    show (root -> lp);
+    show_inOrder(root -> lp);
     printf("%d", root -> data);
-    show(root -> rp);
+    show_inOrder(root -> rp);
 } 
 
 int sumBT(Node* root) {
@@ -45,6 +45,7 @@ int sumBT(Node* root) {
 }
 
 int heightBT(Node* root, int count){
+    if (root == NULL) return count -1;
     heightBT(root -> lp, count);
     heightBT(root -> rp, count);
     count++;
